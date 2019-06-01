@@ -32,11 +32,12 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 35px;
     display: inline-block;
-    border: 1px solid #4aaaa5;
     background-color: #4aaaa5;
     color: white;
     margin: 0 auto;
-    padding: 10px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    height: 100%;
 }
 
 
@@ -46,25 +47,10 @@ nav {
     display: inline-block;
     overflow: hidden;
     float: right;
-    clear: both;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding: 20px 20px;
 }
 
 
-.about {
-    padding: 10px;
-}
-
-
-.contact {
-    padding: 10px;
-}
-
-
-.portfolio {
-    padding: 10px;
-}
 
 
 body {
@@ -76,7 +62,7 @@ body {
 
 
 
-.aboutMe, #contact {
+.aboutMe, #contact, #portTitle {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 40px;
     border-bottom: 3px solid #dddddd;
@@ -135,12 +121,6 @@ footer {
 }
 
 
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 10px;
-    color: #4aaaa5;
-}
-
 
 .label {
     margin-left: 20px;
@@ -169,3 +149,13 @@ h1 {
     color: white;
     border: none;
 }
+
+
+.portSection {
+    width: 960px;
+    background-color: white;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
