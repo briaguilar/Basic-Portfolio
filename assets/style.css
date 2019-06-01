@@ -3,7 +3,7 @@ header {
     background-color: #ffffff;
     border: solid 5px;
     border-color: #cccccc;
-    height: 60px;
+    height: 80px;
     width: 100%;
     margin: 0;
 }
@@ -11,16 +11,13 @@ header {
 
 .bri {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 40px;
+    font-size: 35px;
     display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-    overflow: hidden;
     border: 1px solid #4aaaa5;
     background-color: #4aaaa5;
-    height: 100%;
     color: white;
-    margin-left: 20px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 
@@ -36,6 +33,21 @@ nav {
 }
 
 
+.about {
+    padding: 10px;
+}
+
+
+.contact {
+    padding: 10px;
+}
+
+
+.portfolio {
+    padding: 10px;
+}
+
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("https://media.istockphoto.com/vectors/fruits-seamless-pattern-banana-background-on-blue-background-vector-vector-id1045435744");
@@ -45,7 +57,7 @@ body {
 
 
 
-.aboutMe {
+.aboutMe, #contact {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 40px;
     border-bottom: 3px solid #666666;
@@ -86,8 +98,34 @@ section {
 
 footer {
     background-color: #666666;
-    height: -960px;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    clear: both;
 }
 
+
+.contactForum {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.label {
+    margin-left: 20px;
+}
+
+
+#name, #email, #message {
+    margin-left: 20px;
+}
+
+
+.submit {
+    margin-left: 20px;
+}
